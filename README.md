@@ -137,6 +137,8 @@ Faker::Company.duns_number #=> "08-341-3736"
 # Get a random company logo url in PNG format.
 Faker::Company.logo #=> "http://pigment.github.com/fake-logos/logos/medium/color/5.png"
 
+# Get a 4 digit SIC code
+Faker::Company.sic_code #=> "0110"
 ```
 
 ###Faker::Date
